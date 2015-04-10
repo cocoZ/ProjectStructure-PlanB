@@ -1,0 +1,1335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8882C7F11931D8E900646ED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8882C7F01931D8E900646ED1 /* Foundation.framework */; };
+		8882C7F31931D8E900646ED1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8882C7F21931D8E900646ED1 /* CoreGraphics.framework */; };
+		8882C7F51931D8E900646ED1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8882C7F41931D8E900646ED1 /* UIKit.framework */; };
+		8882C7FB1931D8E900646ED1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8882C7F91931D8E900646ED1 /* InfoPlist.strings */; };
+		8882C7FD1931D8E900646ED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8882C7FC1931D8E900646ED1 /* main.m */; };
+		8882C8011931D8E900646ED1 /* PSBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8882C8001931D8E900646ED1 /* PSBAppDelegate.m */; };
+		8882C8031931D8E900646ED1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8882C8021931D8E900646ED1 /* Images.xcassets */; };
+		8882C80A1931D8E900646ED1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8882C8091931D8E900646ED1 /* XCTest.framework */; };
+		8882C80B1931D8E900646ED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8882C7F01931D8E900646ED1 /* Foundation.framework */; };
+		8882C80C1931D8E900646ED1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8882C7F41931D8E900646ED1 /* UIKit.framework */; };
+		8882C8141931D8E900646ED1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8882C8121931D8E900646ED1 /* InfoPlist.strings */; };
+		8882C8161931D8E900646ED1 /* ProjectStructureBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8882C8151931D8E900646ED1 /* ProjectStructureBTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8882C80D1931D8E900646ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8882C7E51931D8E900646ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8882C7EC1931D8E900646ED1;
+			remoteInfo = ProjectStructureB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8882C7ED1931D8E900646ED1 /* ProjectStructureB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectStructureB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8882C7F01931D8E900646ED1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8882C7F21931D8E900646ED1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8882C7F41931D8E900646ED1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8882C7F81931D8E900646ED1 /* ProjectStructureB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProjectStructureB-Info.plist"; sourceTree = "<group>"; };
+		8882C7FA1931D8E900646ED1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8882C7FC1931D8E900646ED1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8882C7FE1931D8E900646ED1 /* ProjectStructureB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProjectStructureB-Prefix.pch"; sourceTree = "<group>"; };
+		8882C7FF1931D8E900646ED1 /* PSBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSBAppDelegate.h; sourceTree = "<group>"; };
+		8882C8001931D8E900646ED1 /* PSBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSBAppDelegate.m; sourceTree = "<group>"; };
+		8882C8021931D8E900646ED1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8882C8081931D8E900646ED1 /* ProjectStructureBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectStructureBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8882C8091931D8E900646ED1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8882C8111931D8E900646ED1 /* ProjectStructureBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProjectStructureBTests-Info.plist"; sourceTree = "<group>"; };
+		8882C8131931D8E900646ED1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8882C8151931D8E900646ED1 /* ProjectStructureBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectStructureBTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8882C7EA1931D8E900646ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8882C7F31931D8E900646ED1 /* CoreGraphics.framework in Frameworks */,
+				8882C7F51931D8E900646ED1 /* UIKit.framework in Frameworks */,
+				8882C7F11931D8E900646ED1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8882C8051931D8E900646ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8882C80A1931D8E900646ED1 /* XCTest.framework in Frameworks */,
+				8882C80C1931D8E900646ED1 /* UIKit.framework in Frameworks */,
+				8882C80B1931D8E900646ED1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8882C7E41931D8E900646ED1 = {
+			isa = PBXGroup;
+			children = (
+				8882C7F61931D8E900646ED1 /* ProjectStructureB */,
+				8882C80F1931D8E900646ED1 /* ProjectStructureBTests */,
+				8882C7EF1931D8E900646ED1 /* Frameworks */,
+				8882C7EE1931D8E900646ED1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8882C7EE1931D8E900646ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8882C7ED1931D8E900646ED1 /* ProjectStructureB.app */,
+				8882C8081931D8E900646ED1 /* ProjectStructureBTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8882C7EF1931D8E900646ED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8882C7F01931D8E900646ED1 /* Foundation.framework */,
+				8882C7F21931D8E900646ED1 /* CoreGraphics.framework */,
+				8882C7F41931D8E900646ED1 /* UIKit.framework */,
+				8882C8091931D8E900646ED1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8882C7F61931D8E900646ED1 /* ProjectStructureB */ = {
+			isa = PBXGroup;
+			children = (
+				8882C81F1931DCF000646ED1 /* Classes */,
+				8882C87D1931DCF000646ED1 /* CoreDataModelds */,
+				8882C87E1931DCF000646ED1 /* Headers */,
+				8882C8821931DCF000646ED1 /* Resources */,
+				8882C8881931DCF000646ED1 /* ThirdParts */,
+				8882C8891931DCF000646ED1 /* UserInterfaceFile */,
+				8882C7FF1931D8E900646ED1 /* PSBAppDelegate.h */,
+				8882C8001931D8E900646ED1 /* PSBAppDelegate.m */,
+				8882C8021931D8E900646ED1 /* Images.xcassets */,
+				8882C7F71931D8E900646ED1 /* Supporting Files */,
+			);
+			path = ProjectStructureB;
+			sourceTree = "<group>";
+		};
+		8882C7F71931D8E900646ED1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8882C7F81931D8E900646ED1 /* ProjectStructureB-Info.plist */,
+				8882C7F91931D8E900646ED1 /* InfoPlist.strings */,
+				8882C7FC1931D8E900646ED1 /* main.m */,
+				8882C7FE1931D8E900646ED1 /* ProjectStructureB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8882C80F1931D8E900646ED1 /* ProjectStructureBTests */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8151931D8E900646ED1 /* ProjectStructureBTests.m */,
+				8882C8101931D8E900646ED1 /* Supporting Files */,
+			);
+			path = ProjectStructureBTests;
+			sourceTree = "<group>";
+		};
+		8882C8101931D8E900646ED1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8111931D8E900646ED1 /* ProjectStructureBTests-Info.plist */,
+				8882C8121931D8E900646ED1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8882C81F1931DCF000646ED1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8882C88D1931DF4E00646ED1 /* NetWoking */,
+				8882C8201931DCF000646ED1 /* Controller */,
+				8882C83F1931DCF000646ED1 /* Model */,
+				8882C85E1931DCF000646ED1 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8882C8201931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8211931DCF000646ED1 /* ModuleA */,
+				8882C8251931DCF000646ED1 /* ModuleB */,
+				8882C8321931DCF000646ED1 /* ModuleC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C8211931DCF000646ED1 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8221931DCF000646ED1 /* InterfaceA */,
+				8882C8231931DCF000646ED1 /* InterfaceB */,
+				8882C8241931DCF000646ED1 /* InterfaceC */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		8882C8221931DCF000646ED1 /* InterfaceA */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceA;
+			sourceTree = "<group>";
+		};
+		8882C8231931DCF000646ED1 /* InterfaceB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceB;
+			sourceTree = "<group>";
+		};
+		8882C8241931DCF000646ED1 /* InterfaceC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceC;
+			sourceTree = "<group>";
+		};
+		8882C8251931DCF000646ED1 /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8261931DCF000646ED1 /* InterfaceA */,
+				8882C82A1931DCF000646ED1 /* InterfaceB */,
+				8882C82E1931DCF000646ED1 /* InterfaceC */,
+			);
+			path = ModuleB;
+			sourceTree = "<group>";
+		};
+		8882C8261931DCF000646ED1 /* InterfaceA */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8271931DCF000646ED1 /* Controller */,
+				8882C8281931DCF000646ED1 /* Model */,
+				8882C8291931DCF000646ED1 /* View */,
+			);
+			path = InterfaceA;
+			sourceTree = "<group>";
+		};
+		8882C8271931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C8281931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C8291931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C82A1931DCF000646ED1 /* InterfaceB */ = {
+			isa = PBXGroup;
+			children = (
+				8882C82B1931DCF000646ED1 /* Controller */,
+				8882C82C1931DCF000646ED1 /* Model */,
+				8882C82D1931DCF000646ED1 /* View */,
+			);
+			path = InterfaceB;
+			sourceTree = "<group>";
+		};
+		8882C82B1931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C82C1931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C82D1931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C82E1931DCF000646ED1 /* InterfaceC */ = {
+			isa = PBXGroup;
+			children = (
+				8882C82F1931DCF000646ED1 /* Controller */,
+				8882C8301931DCF000646ED1 /* Model */,
+				8882C8311931DCF000646ED1 /* View */,
+			);
+			path = InterfaceC;
+			sourceTree = "<group>";
+		};
+		8882C82F1931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C8301931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C8311931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C8321931DCF000646ED1 /* ModuleC */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8331931DCF000646ED1 /* InterfaceA */,
+				8882C8371931DCF000646ED1 /* InterfaceB */,
+				8882C83B1931DCF000646ED1 /* InterfaceC */,
+			);
+			path = ModuleC;
+			sourceTree = "<group>";
+		};
+		8882C8331931DCF000646ED1 /* InterfaceA */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8341931DCF000646ED1 /* Controller */,
+				8882C8351931DCF000646ED1 /* Model */,
+				8882C8361931DCF000646ED1 /* View */,
+			);
+			path = InterfaceA;
+			sourceTree = "<group>";
+		};
+		8882C8341931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C8351931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C8361931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C8371931DCF000646ED1 /* InterfaceB */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8381931DCF000646ED1 /* Controller */,
+				8882C8391931DCF000646ED1 /* Model */,
+				8882C83A1931DCF000646ED1 /* View */,
+			);
+			path = InterfaceB;
+			sourceTree = "<group>";
+		};
+		8882C8381931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C8391931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C83A1931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C83B1931DCF000646ED1 /* InterfaceC */ = {
+			isa = PBXGroup;
+			children = (
+				8882C83C1931DCF000646ED1 /* Controller */,
+				8882C83D1931DCF000646ED1 /* Model */,
+				8882C83E1931DCF000646ED1 /* View */,
+			);
+			path = InterfaceC;
+			sourceTree = "<group>";
+		};
+		8882C83C1931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C83D1931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C83E1931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C83F1931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8401931DCF000646ED1 /* ModuleA */,
+				8882C8441931DCF000646ED1 /* ModuleB */,
+				8882C8511931DCF000646ED1 /* ModuleC */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C8401931DCF000646ED1 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8411931DCF000646ED1 /* InterfaceA */,
+				8882C8421931DCF000646ED1 /* InterfaceB */,
+				8882C8431931DCF000646ED1 /* InterfaceC */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		8882C8411931DCF000646ED1 /* InterfaceA */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceA;
+			sourceTree = "<group>";
+		};
+		8882C8421931DCF000646ED1 /* InterfaceB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceB;
+			sourceTree = "<group>";
+		};
+		8882C8431931DCF000646ED1 /* InterfaceC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceC;
+			sourceTree = "<group>";
+		};
+		8882C8441931DCF000646ED1 /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8451931DCF000646ED1 /* InterfaceA */,
+				8882C8491931DCF000646ED1 /* InterfaceB */,
+				8882C84D1931DCF000646ED1 /* InterfaceC */,
+			);
+			path = ModuleB;
+			sourceTree = "<group>";
+		};
+		8882C8451931DCF000646ED1 /* InterfaceA */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8461931DCF000646ED1 /* Controller */,
+				8882C8471931DCF000646ED1 /* Model */,
+				8882C8481931DCF000646ED1 /* View */,
+			);
+			path = InterfaceA;
+			sourceTree = "<group>";
+		};
+		8882C8461931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C8471931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C8481931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C8491931DCF000646ED1 /* InterfaceB */ = {
+			isa = PBXGroup;
+			children = (
+				8882C84A1931DCF000646ED1 /* Controller */,
+				8882C84B1931DCF000646ED1 /* Model */,
+				8882C84C1931DCF000646ED1 /* View */,
+			);
+			path = InterfaceB;
+			sourceTree = "<group>";
+		};
+		8882C84A1931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C84B1931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C84C1931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C84D1931DCF000646ED1 /* InterfaceC */ = {
+			isa = PBXGroup;
+			children = (
+				8882C84E1931DCF000646ED1 /* Controller */,
+				8882C84F1931DCF000646ED1 /* Model */,
+				8882C8501931DCF000646ED1 /* View */,
+			);
+			path = InterfaceC;
+			sourceTree = "<group>";
+		};
+		8882C84E1931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C84F1931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C8501931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C8511931DCF000646ED1 /* ModuleC */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8521931DCF000646ED1 /* InterfaceA */,
+				8882C8561931DCF000646ED1 /* InterfaceB */,
+				8882C85A1931DCF000646ED1 /* InterfaceC */,
+			);
+			path = ModuleC;
+			sourceTree = "<group>";
+		};
+		8882C8521931DCF000646ED1 /* InterfaceA */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8531931DCF000646ED1 /* Controller */,
+				8882C8541931DCF000646ED1 /* Model */,
+				8882C8551931DCF000646ED1 /* View */,
+			);
+			path = InterfaceA;
+			sourceTree = "<group>";
+		};
+		8882C8531931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C8541931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C8551931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C8561931DCF000646ED1 /* InterfaceB */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8571931DCF000646ED1 /* Controller */,
+				8882C8581931DCF000646ED1 /* Model */,
+				8882C8591931DCF000646ED1 /* View */,
+			);
+			path = InterfaceB;
+			sourceTree = "<group>";
+		};
+		8882C8571931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C8581931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C8591931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C85A1931DCF000646ED1 /* InterfaceC */ = {
+			isa = PBXGroup;
+			children = (
+				8882C85B1931DCF000646ED1 /* Controller */,
+				8882C85C1931DCF000646ED1 /* Model */,
+				8882C85D1931DCF000646ED1 /* View */,
+			);
+			path = InterfaceC;
+			sourceTree = "<group>";
+		};
+		8882C85B1931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C85C1931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C85D1931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C85E1931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8882C85F1931DCF000646ED1 /* ModuleA */,
+				8882C8631931DCF000646ED1 /* ModuleB */,
+				8882C8701931DCF000646ED1 /* ModuleC */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C85F1931DCF000646ED1 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8601931DCF000646ED1 /* InterfaceA */,
+				8882C8611931DCF000646ED1 /* InterfaceB */,
+				8882C8621931DCF000646ED1 /* InterfaceC */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		8882C8601931DCF000646ED1 /* InterfaceA */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceA;
+			sourceTree = "<group>";
+		};
+		8882C8611931DCF000646ED1 /* InterfaceB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceB;
+			sourceTree = "<group>";
+		};
+		8882C8621931DCF000646ED1 /* InterfaceC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceC;
+			sourceTree = "<group>";
+		};
+		8882C8631931DCF000646ED1 /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8641931DCF000646ED1 /* InterfaceA */,
+				8882C8681931DCF000646ED1 /* InterfaceB */,
+				8882C86C1931DCF000646ED1 /* InterfaceC */,
+			);
+			path = ModuleB;
+			sourceTree = "<group>";
+		};
+		8882C8641931DCF000646ED1 /* InterfaceA */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8651931DCF000646ED1 /* Controller */,
+				8882C8661931DCF000646ED1 /* Model */,
+				8882C8671931DCF000646ED1 /* View */,
+			);
+			path = InterfaceA;
+			sourceTree = "<group>";
+		};
+		8882C8651931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C8661931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C8671931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C8681931DCF000646ED1 /* InterfaceB */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8691931DCF000646ED1 /* Controller */,
+				8882C86A1931DCF000646ED1 /* Model */,
+				8882C86B1931DCF000646ED1 /* View */,
+			);
+			path = InterfaceB;
+			sourceTree = "<group>";
+		};
+		8882C8691931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C86A1931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C86B1931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C86C1931DCF000646ED1 /* InterfaceC */ = {
+			isa = PBXGroup;
+			children = (
+				8882C86D1931DCF000646ED1 /* Controller */,
+				8882C86E1931DCF000646ED1 /* Model */,
+				8882C86F1931DCF000646ED1 /* View */,
+			);
+			path = InterfaceC;
+			sourceTree = "<group>";
+		};
+		8882C86D1931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C86E1931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C86F1931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C8701931DCF000646ED1 /* ModuleC */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8711931DCF000646ED1 /* InterfaceA */,
+				8882C8751931DCF000646ED1 /* InterfaceB */,
+				8882C8791931DCF000646ED1 /* InterfaceC */,
+			);
+			path = ModuleC;
+			sourceTree = "<group>";
+		};
+		8882C8711931DCF000646ED1 /* InterfaceA */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8721931DCF000646ED1 /* Controller */,
+				8882C8731931DCF000646ED1 /* Model */,
+				8882C8741931DCF000646ED1 /* View */,
+			);
+			path = InterfaceA;
+			sourceTree = "<group>";
+		};
+		8882C8721931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C8731931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C8741931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C8751931DCF000646ED1 /* InterfaceB */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8761931DCF000646ED1 /* Controller */,
+				8882C8771931DCF000646ED1 /* Model */,
+				8882C8781931DCF000646ED1 /* View */,
+			);
+			path = InterfaceB;
+			sourceTree = "<group>";
+		};
+		8882C8761931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C8771931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C8781931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C8791931DCF000646ED1 /* InterfaceC */ = {
+			isa = PBXGroup;
+			children = (
+				8882C87A1931DCF000646ED1 /* Controller */,
+				8882C87B1931DCF000646ED1 /* Model */,
+				8882C87C1931DCF000646ED1 /* View */,
+			);
+			path = InterfaceC;
+			sourceTree = "<group>";
+		};
+		8882C87A1931DCF000646ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8882C87B1931DCF000646ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8882C87C1931DCF000646ED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8882C87D1931DCF000646ED1 /* CoreDataModelds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreDataModelds;
+			sourceTree = "<group>";
+		};
+		8882C87E1931DCF000646ED1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8882C87F1931DCF000646ED1 /* Configurations */,
+				8882C8801931DCF000646ED1 /* NetInterfaces */,
+				8882C8811931DCF000646ED1 /* Others */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		8882C87F1931DCF000646ED1 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		8882C8801931DCF000646ED1 /* NetInterfaces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetInterfaces;
+			sourceTree = "<group>";
+		};
+		8882C8811931DCF000646ED1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		8882C8821931DCF000646ED1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8831931DCF000646ED1 /* Audios */,
+				8882C8841931DCF000646ED1 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8882C8831931DCF000646ED1 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		8882C8841931DCF000646ED1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8882C8851931DCF000646ED1 /* InterfaceA */,
+				8882C8861931DCF000646ED1 /* InterfaceB */,
+				8882C8871931DCF000646ED1 /* InterfaceC */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8882C8851931DCF000646ED1 /* InterfaceA */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceA;
+			sourceTree = "<group>";
+		};
+		8882C8861931DCF000646ED1 /* InterfaceB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceB;
+			sourceTree = "<group>";
+		};
+		8882C8871931DCF000646ED1 /* InterfaceC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceC;
+			sourceTree = "<group>";
+		};
+		8882C8881931DCF000646ED1 /* ThirdParts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParts;
+			sourceTree = "<group>";
+		};
+		8882C8891931DCF000646ED1 /* UserInterfaceFile */ = {
+			isa = PBXGroup;
+			children = (
+				8882C88A1931DCF000646ED1 /* Nibs */,
+				8882C88B1931DCF000646ED1 /* Storyboards */,
+			);
+			path = UserInterfaceFile;
+			sourceTree = "<group>";
+		};
+		8882C88A1931DCF000646ED1 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		8882C88B1931DCF000646ED1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8882C88D1931DF4E00646ED1 /* NetWoking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWoking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8882C7EC1931D8E900646ED1 /* ProjectStructureB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8882C8191931D8E900646ED1 /* Build configuration list for PBXNativeTarget "ProjectStructureB" */;
+			buildPhases = (
+				8882C7E91931D8E900646ED1 /* Sources */,
+				8882C7EA1931D8E900646ED1 /* Frameworks */,
+				8882C7EB1931D8E900646ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectStructureB;
+			productName = ProjectStructureB;
+			productReference = 8882C7ED1931D8E900646ED1 /* ProjectStructureB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8882C8071931D8E900646ED1 /* ProjectStructureBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8882C81C1931D8E900646ED1 /* Build configuration list for PBXNativeTarget "ProjectStructureBTests" */;
+			buildPhases = (
+				8882C8041931D8E900646ED1 /* Sources */,
+				8882C8051931D8E900646ED1 /* Frameworks */,
+				8882C8061931D8E900646ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8882C80E1931D8E900646ED1 /* PBXTargetDependency */,
+			);
+			name = ProjectStructureBTests;
+			productName = ProjectStructureBTests;
+			productReference = 8882C8081931D8E900646ED1 /* ProjectStructureBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8882C7E51931D8E900646ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PSB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "www.lanou3g.com 北京蓝鸥科技有限公司";
+				TargetAttributes = {
+					8882C8071931D8E900646ED1 = {
+						TestTargetID = 8882C7EC1931D8E900646ED1;
+					};
+				};
+			};
+			buildConfigurationList = 8882C7E81931D8E900646ED1 /* Build configuration list for PBXProject "ProjectStructureB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8882C7E41931D8E900646ED1;
+			productRefGroup = 8882C7EE1931D8E900646ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8882C7EC1931D8E900646ED1 /* ProjectStructureB */,
+				8882C8071931D8E900646ED1 /* ProjectStructureBTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8882C7EB1931D8E900646ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8882C7FB1931D8E900646ED1 /* InfoPlist.strings in Resources */,
+				8882C8031931D8E900646ED1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8882C8061931D8E900646ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8882C8141931D8E900646ED1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8882C7E91931D8E900646ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8882C8011931D8E900646ED1 /* PSBAppDelegate.m in Sources */,
+				8882C7FD1931D8E900646ED1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8882C8041931D8E900646ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8882C8161931D8E900646ED1 /* ProjectStructureBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8882C80E1931D8E900646ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8882C7EC1931D8E900646ED1 /* ProjectStructureB */;
+			targetProxy = 8882C80D1931D8E900646ED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8882C7F91931D8E900646ED1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8882C7FA1931D8E900646ED1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8882C8121931D8E900646ED1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8882C8131931D8E900646ED1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8882C8171931D8E900646ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8882C8181931D8E900646ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8882C81A1931D8E900646ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProjectStructureB/ProjectStructureB-Prefix.pch";
+				INFOPLIST_FILE = "ProjectStructureB/ProjectStructureB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8882C81B1931D8E900646ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProjectStructureB/ProjectStructureB-Prefix.pch";
+				INFOPLIST_FILE = "ProjectStructureB/ProjectStructureB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8882C81D1931D8E900646ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProjectStructureB.app/ProjectStructureB";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProjectStructureB/ProjectStructureB-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProjectStructureBTests/ProjectStructureBTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8882C81E1931D8E900646ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProjectStructureB.app/ProjectStructureB";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProjectStructureB/ProjectStructureB-Prefix.pch";
+				INFOPLIST_FILE = "ProjectStructureBTests/ProjectStructureBTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8882C7E81931D8E900646ED1 /* Build configuration list for PBXProject "ProjectStructureB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8882C8171931D8E900646ED1 /* Debug */,
+				8882C8181931D8E900646ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8882C8191931D8E900646ED1 /* Build configuration list for PBXNativeTarget "ProjectStructureB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8882C81A1931D8E900646ED1 /* Debug */,
+				8882C81B1931D8E900646ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8882C81C1931D8E900646ED1 /* Build configuration list for PBXNativeTarget "ProjectStructureBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8882C81D1931D8E900646ED1 /* Debug */,
+				8882C81E1931D8E900646ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8882C7E51931D8E900646ED1 /* Project object */;
+}
